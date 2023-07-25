@@ -62,10 +62,10 @@ app.use(
 
 app.use('/api', postRouter, userRouter, socialRouter)
 
-app.use(express.static(join(__dirname, '../../client/dist')))
+app.use(express.static(join(__dirname, '../dist')))
 
 app.get('*', (req, res) => {
-  res.sendFile(join(__dirname, '../../client/dist/index.html'))
+  res.sendFile(join(__dirname, '../dist/index.html'))
 })
 
 export default httpServer
