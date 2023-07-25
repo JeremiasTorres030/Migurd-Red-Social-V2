@@ -1,0 +1,1526 @@
+@media screen and (max-width: 660px) {
+  .home .leftHome,
+  .home .leftFake {
+    width: 5% !important;
+    padding: 0 15px !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .home .rightHome {
+    display: none;
+  }
+
+  .home .leftHome .logoYTitulo a {
+    top: 1px;
+    position: absolute;
+    margin: 10px auto;
+  }
+
+  .home .leftHome .logoYTitulo h1 {
+    display: none;
+  }
+
+  .home .leftHome p {
+    display: none;
+  }
+
+  .home .leftHome .buttonsHome {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .home .leftHome .buttonsHome .SearchingButton {
+    display: block !important;
+  }
+
+  .home .leftHome .userCard img {
+    display: none;
+  }
+
+  .home .leftHome .userCard button {
+    position: absolute;
+    bottom: -285px;
+    left: -15px;
+    font-size: 20px;
+  }
+
+  .home .leftHome .userCard a {
+    position: absolute;
+    bottom: -245px;
+    left: -15px;
+  }
+
+  .home .midHome {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .login .loginForm,
+  .signup .singupForm {
+    width: 65% !important;
+  }
+
+  .login .loginForm .Field,
+  .signup .singupForm .Field {
+    width: 100% !important;
+  }
+
+  .login .loginForm button,
+  .signup .singupForm button {
+    width: 90% !important;
+  }
+
+  .home .NavBarPhoneSize,
+  .home .CloseSesionNavBar {
+    display: block !important;
+  }
+
+  .home .leftHome,
+  .home .leftFake,
+  .home .rightHome {
+    border: 0px;
+    display: none !important;
+  }
+
+  .home .midHome {
+    padding-top: 50px !important;
+    width: 100% !important;
+    padding-bottom: 40px !important;
+  }
+}
+@media screen and (max-width: 985px) {
+  .home .leftHome h1 {
+    display: none;
+  }
+
+  .home .leftHome .userCard p {
+    display: none;
+  }
+
+  .home .leftHome .userCard a {
+    font-size: 30px;
+  }
+
+  .PostsCard .postImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .home .midHome .Inicio .createPost,
+  .home .midHome .Profile .createPost {
+    display: none !important;
+  }
+
+  .createPost {
+    width: 99vw !important;
+  }
+
+  .Profile .ProfileUser,
+  .Profile .ProfileUserEdit {
+    text-align: center;
+  }
+
+  .Profile .ProfileUserEdit .ProfilePictureEdit input {
+    left: 95px !important;
+  }
+
+  .Profile .ProfileUser a {
+    margin: 8px !important;
+  }
+  .Profile .ProfileUser .EditAndUsername,
+  .Profile .ProfileUserEdit .EditAndUsernameEdit {
+    flex-direction: column;
+  }
+
+  .Profile .BigProfilePicture {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Profile .ProfileUserEdit .ProfilePictureEdit input {
+    left: 69px !important;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header .logo,
+.home .leftHome .logoHome {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 900;
+  margin-right: 10px;
+  transition: all 300ms;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  color: gray;
+}
+/*Inicio*/
+
+.inicio {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio .mainInicio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inicio .mainInicio a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: all 300ms;
+  width: 90%;
+  border: 1px solid white;
+}
+
+.inicio .mainInicio a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  min-width: 100px;
+  background-color: black;
+  color: white;
+}
+
+/* Signup */
+.signup {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup .header {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup .header h2 {
+  margin: 5px 0;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.signup .header .logoYTitulo {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.signup .singupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+.signup .singupForm .Field {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.signup .singupForm .Field p {
+  color: red;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.signup .singupForm .Field input {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 0 10px 2px;
+  width: 100%;
+}
+
+.signup .singupForm button {
+  background-color: rgb(0, 106, 0);
+  color: white;
+  border-radius: 20px;
+  width: 35%;
+  padding: 10px 0;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: all 300ms;
+}
+
+.signup .singupForm button:hover {
+  background-color: rgba(1, 106, 1, 0.645);
+}
+
+.signup .singupForm a {
+  color: white;
+}
+/*login*/
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.login .header {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .header h2 {
+  margin: 5px 0;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.login .header .logoYTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+.login .loginForm .Field {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.login .loginForm .Field p {
+  color: red;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.login .loginForm .Field input {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 0 10px 2px;
+  width: 100%;
+}
+
+.login .loginForm button {
+  background-color: rgb(0, 106, 0);
+  color: white;
+  border-radius: 20px;
+  width: 35%;
+  padding: 10px 0;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: all 300ms;
+}
+
+.login .loginForm button:hover {
+  background-color: rgba(1, 106, 1, 0.645);
+}
+
+.login .loginForm a {
+  color: white;
+}
+
+/*Home*/
+
+.home {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.home .leftFake {
+  width: 20%;
+  padding: 18px;
+}
+
+.home .leftHome {
+  position: fixed;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 20%;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.home .leftHome .header .logoYTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .leftHome .header .logoYTitulo a {
+  text-decoration: none;
+  color: black;
+}
+
+.home .leftHome .header .logoYTitulo h1 {
+  font-size: 40px;
+}
+
+.home .leftHome .buttonsHome {
+  text-align: center;
+}
+
+.home .leftHome .buttonLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .leftHome .notificationButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .leftHome .buttonLink .notificationIconAndCount {
+  display: flex;
+  align-items: center;
+}
+
+.home .leftHome .buttonLink p {
+  margin: 0;
+}
+
+.home .leftHome .buttonsHome a {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  width: 90%;
+  border: 1px solid rgb(125, 125, 125);
+  font-size: 25px;
+  padding: 15px 0;
+  display: block;
+  color: white;
+  border-radius: 10px;
+  transition: all 300ms;
+  text-decoration: none;
+}
+
+.home .leftHome .buttonsHome .SearchingButton {
+  display: none;
+}
+
+.home .leftHome .buttonsHome a:hover {
+  font-weight: 700;
+  background-color: rgb(27, 27, 27);
+}
+
+.home .midHome {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.home .rightHome {
+  text-align: center;
+  width: 20%;
+}
+
+/*Initial Page */
+
+.Inicio .createPost h1 {
+  font-size: 0;
+}
+
+/* Profile */
+
+.Profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Profile .ProfileUser,
+.Profile .ProfileUserEdit {
+  padding-bottom: 30px;
+}
+
+.Profile .ProfileUser a,
+.Profile .ProfileUser h1 {
+  margin: 0 5px;
+}
+
+.Profile .ProfileUser .BigProfilePicture,
+.Profile .ProfileUserEdit .BigProfilePicture {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  position: absolute;
+  border-bottom: 5px solid black;
+}
+
+.Profile .ProfileUser .ProfilePicture,
+.Profile .ProfileUserEdit .ProfilePicture {
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 210px;
+  margin-left: 10px;
+  border: 5px solid black;
+}
+
+.Profile .ProfileUser .EditAndUsername,
+.Profile .ProfileUserEdit .EditAndUsernameEdit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Profile .ProfileUser .EditAndUsername button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-right: 15px;
+  transition: all 300ms;
+  background-color: black;
+  cursor: pointer;
+}
+
+.Profile .ProfileUser .EditAndUsername button:hover {
+  text-decoration: underline;
+  background-color: rgb(27, 27, 27);
+}
+
+.Profile .ProfileUser .EditAndUsername a,
+.Profile .ProfileUserEdit .EditAndUsernameEdit a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+  transition: all 300ms;
+}
+
+.Profile .ProfileUser .EditAndUsername a:hover,
+.Profile .ProfileUserEdit .EditAndUsernameEdit a:hover {
+  text-decoration: underline;
+  background-color: rgb(27, 27, 27);
+}
+
+.Profile .ProfileUser .social a {
+  color: white;
+  text-decoration: none;
+}
+
+.Profile .ProfileUser .social a:hover {
+  text-decoration: underline;
+}
+
+.Profile .ProfilePosts .createPost h1 {
+  font-size: 0;
+}
+.Profile .ProfilePosts .PostsCard {
+  border-top: 1px solid gray;
+}
+
+/* Editiing Profile */
+
+.Profile .ProfileUserEdit .EditAndUsernameEdit p {
+  color: red;
+}
+
+.Profile .ProfileUserEdit .EditAndUsernameEdit input {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: 0 auto 0 5px;
+}
+
+.Profile .ProfileUserEdit .BigProfilePictureEdit {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile .ProfileUserEdit .BigProfilePictureEdit input {
+  position: relative;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.Profile .ProfileUserEdit .BigProfilePictureEdit input:hover {
+  opacity: 0.8;
+}
+
+.Profile .ProfileUserEdit .BigProfilePictureEdit input::before {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '+';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.Profile .ProfileUserEdit .ProfilePictureEdit input {
+  position: absolute;
+  margin-bottom: 9px;
+  margin-left: 15px;
+  top: 215px;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+.Profile .ProfileUserEdit .ProfilePictureEdit input:hover {
+  opacity: 0.8;
+}
+
+.Profile .ProfileUserEdit .ProfilePictureEdit input::before {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '+';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* PostCard */
+
+.PostsCard,
+.commentCard {
+  border-bottom: 1px solid rgb(125, 125, 125);
+  margin: 0;
+  padding: 5px;
+}
+
+.PostsCard .UserAndOptions,
+.commentCard .UserAndOptionsComment {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.PostsCard .imageAndUsername,
+.commentCard .imageAndUsername {
+  display: flex;
+  align-items: center;
+}
+
+.PostsCard .UserAndOptions .PostsOptions button,
+.commentCard .UserAndOptionsComment .commentOptions button {
+  display: block;
+  width: 75px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid rgb(125, 125, 125);
+  background-color: black;
+  color: white;
+  transition: all 300ms;
+}
+
+.PostsCard .UserAndOptions .PostsOptions button:hover,
+.commentCard .UserAndOptionsComment .commentOptions button:hover {
+  background-color: rgb(202, 0, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.PostsCard .UserAndOptions .imageAndUsername img,
+.commentCard .imageAndUsername img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 3px;
+}
+
+.PostsCard .postImage {
+  max-width: 90%;
+  max-height: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.PostsCard:hover {
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+.PostsCard a,
+.commentCard a {
+  text-decoration: none;
+  color: white;
+  margin-left: 8px;
+}
+
+.PostsCard h3,
+.commentCard h3 {
+  margin: 2px 5px;
+}
+
+.PostsCard a:hover,
+.commentCard a:hover {
+  text-decoration: underline;
+}
+
+.PostsCard p {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 5px;
+  color: rgb(220, 218, 218);
+}
+
+.PostsCard .commentsAndLikes {
+  display: flex;
+}
+
+.PostsCard .like,
+.commentCard .likeComment {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.PostsCard .like p,
+.commentCard .likeComment p {
+  margin: 0 0 0 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.PostsCard .like button,
+.commentCard .likeComment button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.PostsCard .like svg,
+.commentCard .likeComment svg {
+  width: 23px;
+  height: 23px;
+  color: gray;
+}
+
+.PostsCard .like .unLikeAction svg,
+.commentCard .likeComment .unLikeCommentAction svg {
+  color: rgb(224, 0, 0);
+}
+
+.PostsCard .like svg:hover,
+.commentCard .likeComment svg:hover {
+  color: red;
+}
+
+.PostsCard .comments {
+  display: flex;
+  align-items: center;
+}
+
+.PostsCard .comments p {
+  margin: 0 0 0 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.PostsCard .comments svg {
+  width: 23px;
+  height: 23px;
+  color: gray;
+}
+
+.PostsCard .comments svg:hover {
+  color: rgb(0, 123, 255);
+}
+
+/* FullScreen Post */
+.fullScreenPost .goBack {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.fullScreenPost .goBack:hover {
+  text-decoration: underline;
+}
+
+/* Create Section */
+
+.createPost {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.createPost .createPostForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.createPost .createPostForm textarea {
+  resize: none;
+  border: 1px solid grey;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  margin: 0px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.createPost .createPostForm p {
+  margin: 0;
+  margin-left: 5px;
+  font-weight: 500;
+  color: red;
+}
+
+.createPost .createPostForm .submitAndFiles {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.createPost .createPostForm .submitAndFiles input {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid rgb(125, 125, 125);
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.createPost .createPostForm .submitAndFiles input:hover {
+  cursor: pointer;
+}
+
+.createPost .createPostForm .submitAndFiles input::before {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: 'Subir Archivo';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.createPost .createPostForm .PreView {
+  position: relative;
+}
+
+.createPost .createPostForm .PreView img {
+  max-width: 250px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.createPost .createPostForm .PreView button {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 900;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.createPost .createPostForm .PreView button:hover {
+  opacity: 0.8;
+}
+
+.createPost .createPostForm .submitAndFiles button {
+  display: block;
+  width: 80px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(125, 125, 125);
+  background-color: black;
+  color: white;
+}
+
+.createPost .createPostForm .submitAndFiles button:hover {
+  background-color: rgb(27, 27, 27);
+  text-decoration: underline;
+}
+
+/* userCard */
+
+.userCard {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.userCard .usernameAndLogOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.userCard .usernameAndLogOut p {
+  margin: 4px;
+}
+
+.userCard img {
+  border-radius: 100%;
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  margin-right: 2px;
+}
+
+.userCard .usernameAndConfig a {
+  color: white;
+  font-size: 38px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.userCard button {
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.userCard button:hover {
+  text-decoration: underline;
+  background-color: rgb(27, 27, 27);
+}
+
+/* Search bar */
+
+.SearchBar {
+  padding: 5px;
+  overflow: hidden;
+}
+
+.SearchBar input {
+  border-radius: 9px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid gray;
+  width: 98%;
+}
+
+.SearchBar .listOfUsers {
+  border: 1px solid grey;
+  border-top: 0;
+  border-radius: 10px;
+  width: 98%;
+}
+
+.SearchBar .listOfUsers .closeList {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 95%;
+  border: transparent;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.SearchBar .listOfUsers .userMap {
+  height: 379px;
+  overflow: scroll;
+}
+
+.SearchBar .listOfUsers .closeList:hover {
+  background-color: rgb(66, 66, 66);
+  text-decoration: underline;
+}
+.SearchBar .userFounded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 5px;
+  border-radius: 8px;
+  color: white;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid gray;
+  font-weight: 700;
+}
+
+.SearchBar .userFounded p {
+  margin: 0;
+}
+
+.SearchBar .userFounded img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.SearchBar .userFounded:hover {
+  background-color: rgb(30, 30, 30);
+  text-decoration: underline;
+}
+/* Top NavBar Phones*/
+
+.home .CloseSesionNavBar {
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 50px;
+}
+
+.home .CloseSesionNavBar .CloseSesionNavBarNotifications {
+  display: flex;
+  align-items: center;
+}
+.home .CloseSesionNavBar .CloseSesionNavBarNotifications p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.home .CloseSesionNavBar .CloseSesionButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.home .CloseSesionNavBar .CloseSesionButtons svg {
+  width: 45px;
+  font-size: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.home .CloseSesionNavBar .CloseSesionButtons img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* Bottom NavBar Phones */
+
+.home .NavBarPhoneSize,
+.home .CloseSesionNavBar {
+  display: none;
+  z-index: 1;
+}
+
+.home .NavBarPhoneSize {
+  border-top: 1px solid gray;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100vw;
+  height: 40px;
+}
+
+.home .NavBarPhoneSize svg {
+  width: calc(100% / 4);
+  height: 40px;
+  color: white;
+}
+
+/* Config Panel */
+
+.Config {
+  padding: 10px;
+}
+
+.Config .DeleteConfig {
+  display: flex;
+}
+
+.Config .DeleteConfig .DeleteAcc {
+  padding: 10px;
+  border: 1px solid red;
+  color: red;
+  background-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms;
+  margin-right: 30px;
+}
+
+.Config .DeleteConfig .DeleteAcc:hover {
+  background-color: red;
+  color: white;
+  text-decoration: underline;
+}
+
+.Config .DeleteConfig .Confirm {
+  padding: 10px;
+  border: 1px solid green;
+  color: green;
+  background-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms;
+  margin: 0 10px;
+}
+
+.Config .DeleteConfig .Confirm:hover {
+  background-color: green;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Following Page */
+
+.followingPage {
+  padding: 10px;
+}
+
+.followingPage a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.followingPage a:hover {
+  text-decoration: underline;
+}
+
+.followingPage h1 {
+  margin: 0 0 10px 0;
+  border-top: 1px solid grey;
+}
+
+.followingPage .followingList {
+  display: flex;
+  align-items: center;
+}
+
+.followingPage .followingList img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 10px 0;
+}
+
+.followingPage .followingList p {
+  color: white;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.followingPage .followingList p:hover {
+  text-decoration: underline;
+}
+
+/* commentPost */
+
+.commentPost p {
+  margin: 0;
+}
+
+.commentPost form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.commentPost form button {
+  margin-top: 5px;
+  border: 1px solid rgb(125, 125, 125);
+  padding: 6px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.commentPost form button:hover {
+  background-color: rgb(66, 66, 66);
+  text-decoration: underline;
+}
+
+.commentPost form p {
+  color: red;
+  font-weight: 500;
+  margin: 0;
+}
+
+.commentPost form input {
+  margin-top: 5px;
+  background-color: black;
+  border: 0;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+}
+
+.commentCard .author {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.commentCard .author:hover {
+  text-decoration: underline;
+}
+
+/* Notifications */
+.Notifications {
+  display: flex;
+  flex-direction: column;
+}
+
+.Notifications .buttonAndTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+
+.Notifications .buttonAndTitle button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 8px;
+  padding: 10px 5px;
+  transition: all 300ms;
+  background-color: black;
+  cursor: pointer;
+  width: 30%;
+}
+
+.Notifications .buttonAndTitle button:hover {
+  text-decoration: underline;
+  background-color: rgb(202, 0, 0);
+}
+
+.Notifications .notificationCard,
+.Notifications .notificationCardClicked {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+.Notifications .notificationCard .profileImageAndTypeOfNotification svg,
+.Notifications .notificationCardClicked .profileImageAndTypeOfNotification svg {
+  font-size: 30px;
+}
+
+.Notifications .notificationCard .profileImageAndTypeOfNotification .like,
+.Notifications
+  .notificationCardClicked
+  .profileImageAndTypeOfNotification
+  .like {
+  color: red;
+}
+
+.Notifications .notificationCard .profileImageAndTypeOfNotification .like,
+.Notifications
+  .notificationCardClicked
+  .profileImageAndTypeOfNotification
+  .like {
+  color: red;
+}
+
+.Notifications .notificationCard .profileImageAndTypeOfNotification .comment,
+.Notifications
+  .notificationCardClicked
+  .profileImageAndTypeOfNotification
+  .comment {
+  color: rgb(0, 123, 255);
+}
+
+.Notifications .notificationCard,
+.Notifications .notificationCardClicked p {
+  margin: 3px 0;
+}
+
+.Notifications .notificationCard .userAndMessageNotification,
+.Notifications .notificationCardClicked .userAndMessageNotification {
+  display: flex;
+  align-items: center;
+}
+
+.Notifications .notificationCard .userAndMessageNotification a,
+.Notifications .notificationCardClicked .userAndMessageNotification a {
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.Notifications .notificationCard .userAndMessageNotification a:hover,
+.Notifications .notificationCardClicked .userAndMessageNotification a:hover {
+  text-decoration: underline;
+}
+
+.notificationCard .ProfileImage,
+.notificationCardClicked .ProfileImage {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.notificationCard .PostImage,
+.notificationCardClicked .PostImage {
+  width: 80px;
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.notificationCardClicked:hover {
+  cursor: pointer;
+  background-color: rgb(27, 27, 27);
+}
+/* New Users Pannel */
+
+.NewUsersPanel {
+  text-align: center;
+}
+
+.NewUsersPanel .suggestedusers {
+  display: flex;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  height: 202px;
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  margin: 0 auto;
+  width: 120px;
+  height: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 8px;
+  padding: 10px 30px;
+  transition: none 300ms;
+  background-color: black;
+  cursor: pointer;
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard .unFollowButton {
+  padding: 10px 3px;
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard button:hover {
+  text-decoration: underline;
+  background-color: rgb(27, 27, 27);
+}
+
+.NewUsersPanel .suggestedusers .suggestedUsersCard img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+/* others */
+.Loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.Loading .loader {
+  width: 50px;
+  height: 50px;
+  border: solid 4px transparent;
+  border-top-color: white;
+  border-left-color: white;
+  border-radius: 50%;
+  animation: loading 1.2s linear infinite;
+}
+
+.NewUsersPanel .suggestedusers .Loading {
+  width: 100%;
+  height: 100%;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.active {
+  font-weight: 700;
+}
+
+.NoLogged {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.NoLogged a {
+  color: white;
+}
+
+.NoLogged h1 {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+}
