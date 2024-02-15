@@ -3,7 +3,7 @@
 
 Migurd es un proyecto de práctica inspirado en la red social Twitter.
 
-[**Demo**](https://migurd-production.up.railway.app/)
+[**Demo**](https://migurd.onrender.com)
 
 ## Imagenes
 
